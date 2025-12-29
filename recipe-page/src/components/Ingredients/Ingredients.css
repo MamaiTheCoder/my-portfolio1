@@ -1,0 +1,27 @@
+.MethodWrapper li {
+  padding: 0.4rem 0;
+}
+
+.MethodWrapper li:after {
+  content: "✼";
+  display: block;
+  text-align: center;
+  margin: 1rem 0 0.5rem 0;
+  color: #eee;
+}
+
+@media (min-width: 50rem) {
+  .Ingredients {
+    font-size: 0.9rem;
+    float: right;
+    padding: 1rem;
+    margin: 0 0 0.5rem 1rem;
+    border-radius: 3px;
+    background: #ffffdf;
+    border: 2px solid #e8cfa9;
+  }
+
+  .Ingredients h3 {
+    margin: 0;
+  }
+}

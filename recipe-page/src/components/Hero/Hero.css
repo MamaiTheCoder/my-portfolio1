@@ -1,0 +1,44 @@
+.MoneyShot {
+  position: relative;
+}
+
+.MoneyShotImg {
+  border: 6px solid #e8cfa9;
+  border-radius: 4px;
+}
+
+.ImageCaption {
+  font-size: 0.75rem;
+  position: absolute;
+  bottom: 0.5rem;
+  right: 1rem;
+}
+
+.IntroText {
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  font-style: italic;
+}
+
+@media (min-width: 50rem) {
+  .IntroWrapper {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+  }
+
+  .MoneyShot,
+  .IntroText {
+    display: table-cell;
+    width: 50%;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .IntroText {
+    padding: 0.5rem;
+    font-size: 2.5rem;
+    text-align: left;
+    position: relative;
+  }
+}
